@@ -1,0 +1,6 @@
+This repository is a game about survival in space.
+- The app is written in React using Vite
+- The game is driven by dialogue
+- The dialogue system consists of nodes, represented by markdown files
+- Each node has an ID, a text content and a list of actions to advance to another nodes
+- Actions have text content and can transition to another node based on some condition
