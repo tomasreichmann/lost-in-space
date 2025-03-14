@@ -1,6 +1,6 @@
 import React from "react";
 import Navigation from "./Navigation";
-import SampleDialogue from "./dialogue/SampleDialogue";
+import Dialogue from "./dialogue/Dialogue";
 import { useDialogueStore } from "~/model/dialogStore";
 
 export default function Welcome() {
@@ -12,7 +12,7 @@ export default function Welcome() {
         <div className="flex-1 flex flex-col items-center gap-16 min-h-0">
           <div className="max-w-[300px] w-full space-y-6 px-4">
             Current Dialogue Id: {currentDialogueId}
-            <SampleDialogue />
+            <Dialogue />
           </div>
         </div>
       </main>
