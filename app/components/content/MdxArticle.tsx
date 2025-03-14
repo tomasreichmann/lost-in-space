@@ -1,10 +1,12 @@
 import React from "react";
 import { MDXProvider } from "@mdx-js/react";
 import { Action } from "../dialogue/Action";
+import { Text } from "./Text";
 
 // Custom components to be used in MDX
 const mdxComponents = {
   Action, // Add other custom components here
+  Text,
   h1: (props: React.ComponentProps<"h1">) => (
     <h1 className="text-2xl font-bold mb-4" {...props} />
   ),
